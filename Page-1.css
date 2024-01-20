@@ -621,7 +621,7 @@
 .u-section-4 .u-text-18 {
   width: auto;
   font-weight: 400;
-  margin: -1006px 46px 60px 84px;
+  margin: -1140px 46px 60px 84px;
 }
 
 @media (max-width: 767px) {
@@ -749,6 +749,7 @@
   }
 } .u-section-5 {
   background-image: none;
+  margin-top:150px
 }
 
 .u-section-5 .u-sheet-1 {
@@ -1233,7 +1234,7 @@
   width: 468px;
   height: 435px;
   --radius: 20px;
-  margin: 1654px auto 0 62px;
+  margin: 45px auto 0 62px;
 }
 
 .u-section-7 .u-text-10 {
@@ -1801,7 +1802,7 @@
 
   .u-section-7 .u-image-6 {
     height: 316px;
-    margin-top: 2191px;
+    margin-top: 29px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -2690,5 +2691,5 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            /* Add other styling as needed */
+            
         }
