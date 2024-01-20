@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            height: 200vh; /* Set the height of the body to be at least twice the viewport height */
+            margin: 0;
+            padding: 0;
+        }
+
+        .golbutton {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <img class="golbutton u-image u-image-circle u-image-contain u-preserve-proportions u-image-5" src="images/Ellipse2.png" alt="" data-image-width="38" data-image-height="38">
+
+    <script>
+        document.addEventListener('scroll', function() {
+            var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+            // Adjust the translateY value based on the scroll position
+            var translateY = scrollPosition / 2; // You can adjust this factor based on your preference
+
+            // Update the transform property of the dot
+            document.querySelector('.golbutton').style.transform = 'translate(-50%, calc(-50% + ' + translateY + 'px))';
+        });
+    </script>
+</body>
+</html>
